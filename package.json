@@ -1,25 +1,29 @@
 {
-  "name": "bible-text-picker",
-  "version": "0.0.0",
-  "description": "This is the description of the plugin.",
-  "strapi": {
-    "name": "bible-text-picker",
-    "description": "Description of Bible Text Picker plugin",
-    "kind": "plugin",
-    "displayName": "Bible Text Picker"
-  },
-  "dependencies": {},
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "maintainers": [
-    {
-      "name": "A Strapi developer"
-    }
-  ],
-  "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
-  },
-  "license": "MIT"
+	"name": "@strapi/plugin-bible-text-picker",
+	"version": "0.0.0",
+	"description": "Helps to get the content of a bible passage",
+	"strapi": {
+		"name": "bible-text-picker",
+		"description": "Helps to get the content of a bible passage",
+		"kind": "plugin",
+		"displayName": "Bible Text Picker"
+	},
+	"dependencies": {
+		"@strapi/icons": "^1.3.1",
+		"chapter-and-verse": "^3.0.4",
+		"react-autocomplete-hint": "^2.0.0"
+	},
+	"author": "Busola Okeowo <busolaokemoney@gmail.com>",
+	"maintainers": [
+		"Busola Okeowo <busolaokemoney@gmail.com>"
+	],
+	"keywords": [
+		"Strapi",
+		"plugin"
+	],
+	"engines": {
+		"node": ">=14.19.1 <=18.x.x",
+		"npm": ">=6.0.0"
+	},
+	"license": "MIT"
 }
