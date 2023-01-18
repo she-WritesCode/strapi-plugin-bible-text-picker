@@ -15,7 +15,7 @@ import chapterAndVerse from "chapter-and-verse/js/cv";
 import { getPassage, BOOKS } from "../../utils/helper";
 import { useIntl } from "react-intl";
 
-function BibleTextPicker({
+function BibleTextDropdown({
 	attribute,
 	description,
 	disabled,

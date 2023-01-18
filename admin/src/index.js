@@ -38,18 +38,18 @@ export default {
 		app.customFields.register({
 			name: "bible-text-dropdown",
 			pluginId: pluginId, // the custom field is created by a color-picker plugin
-			type: "string", // the color will be stored as a string
+			type: "string", // the bible text will be stored as a string
 			intlLabel: {
 				id: `${pluginId}.bible-text-dropdown.label`,
-				defaultMessage: "Bible Verse",
+				defaultMessage: "Bible Text",
 			},
 			intlDescription: {
 				id: `${pluginId}.bible-text-dropdown.description`,
-				defaultMessage: "Enter a valid Bible verse",
+				defaultMessage: "Enter a valid Bible Text",
 			},
 			// icon: ColorPickerIcon, // don't forget to create/import your icon component
 			components: {
-				Input: async () => import(/* webpackChunkName: "input-component" */ "./components/BibleTextPicker"),
+				Input: async () => import(/* webpackChunkName: "input-component" */ "./components/BibleTextDropdown"),
 			},
 			options: {
 				// declare options here
